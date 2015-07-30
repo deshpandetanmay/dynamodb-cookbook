@@ -19,7 +19,7 @@
 		function Login(email, password, callback) {
 			var req = {
 				method : 'POST',
-				url : '/addressbook/rest/v1/login',
+				url : '/rest/v1/login',
 				headers : {
 					'Content-Type' : 'application/json'
 				},
