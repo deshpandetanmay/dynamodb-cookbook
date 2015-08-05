@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fillViewport="true" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#fff" >
+
+        <!-- Add Contact Form -->
+
+        <LinearLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="10dip" >
+
+      
+            <Button
+                android:id="@+id/btnAddNewContact"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dip"
+                android:onClick="onClickAddNewContact"
+                android:text="Add New Contact" />
+             <Button
+                android:id="@+id/btnAllContacts"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dip"
+                android:onClick="onClickViewAll"
+                android:text="My Contacts" />
+           
+
+           
+        </LinearLayout>
+       
+    </RelativeLayout>
+
+</ScrollView>

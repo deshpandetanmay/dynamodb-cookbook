@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fillViewport="true" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#fff" >
+
+        <!-- Add Contact Form -->
+
+        <LinearLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="10dip" >
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="40dip"
+                android:layout_marginTop="40dip"
+                android:gravity="center"
+                android:text="Add New Contact"
+                android:textColor="#025f7c"
+                android:textSize="20dip" />
+            <!-- Full Name Label -->
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Name"
+                android:textColor="#372c24" />
+
+            <EditText
+                android:id="@+id/contact_fullname"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dip"
+                android:layout_marginTop="5dip"
+                android:singleLine="true"
+                android:textColor="#000000" />
+            <!-- Email Label -->
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Email"
+                android:textColor="#372c24" />
+
+            <EditText
+                android:id="@+id/contact_email"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dip"
+                android:layout_marginTop="5dip"
+                android:singleLine="true"
+                android:textColor="#000000" />
+            
+
+              <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Phone"
+                android:textColor="#372c24" />
+
+            <EditText
+                android:id="@+id/contact_phone"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dip"
+                android:layout_marginTop="5dip"
+                android:singleLine="true"
+                android:textColor="#000000" />
+                 <!-- Register Button -->
+
+            <Button
+                android:id="@+id/btnNewContactr"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dip"
+                android:onClick="onClickAddNew"
+                android:text="Save Contact" />
+           
+
+           
+        </LinearLayout>
+       
+    </RelativeLayout>
+
+</ScrollView>
